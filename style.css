@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./imagens/valorant.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+}
+.p{
+    flex: auto;
+}
+
+.p::after{
+    content: "\1F893";
+}
+
+.iconRiot{
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.info{
+    display: flex;
+    width: 250px;
+    align-items: center;
+}
+.rodapé{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+}
+
+.infoBtn{
+    width: 200px;
+    padding-right: 10px;
+    letter-spacing: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.btnBusca{
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 8px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
+}
+.btnNav{
+    background-color: rgb(207, 55, 55);
+    width: 80px;
+    height: 20px;
+    border: none;
+    font-size: 8px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+/* ====================================================================================== */
+
+main{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn{
+    padding: 25px;
+    text-align: center;
+}
+
+.btnIn{
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(207, 55, 55);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btnIn:hover{
+    box-shadow: 2px 2px 2px black;
+    color: black;
+    transition: 0.5s;
+}
+
+.iconVal{
+    text-align: center;
+}
+
+.iconValimg{
+    width: 150px;
+}
+
+.footer{
+    display: flex;
+    /* background-color: #666666; */
+    justify-content: space-between;
+    align-items:center;
+    height: 50px;
+    font-weight: bolder;
+    padding-top: 60px;
+}
+
+.naveg{
+    font-size: 7px;
+    display: flex;
+    color: rgb(26, 25, 25);
+    cursor: pointer;
+}
+
+li{
+    padding-right: 25px;
+    color: rgb(122, 121, 121);
+    
+}
+
+li:hover{
+    border-radius: 5px;
+    transition: 1s;
+    background-color: gray;
+    color: black;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.logoRiot{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.social{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
